@@ -1,0 +1,8 @@
+app_identifier("Yarob.Homathon") # The bundle identifier of your app
+apple_id("Yarob.hm3@gmail.com") # Your Apple email address
+
+itc_team_id("117976360") # App Store Connect Team ID
+team_id("64K8NPHD2G") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

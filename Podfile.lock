@@ -1,0 +1,90 @@
+PODS:
+  - Alamofire (5.0.5)
+  - CleanyModal (1.0.1)
+  - CountdownLabel (4.0.1)
+  - DynamicBlurView (4.1.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - ParallaxHeader (3.0.0)
+  - PMAlertController (4.0.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - Presentr (1.9)
+  - Pulsator (0.6.0)
+  - RevealingSplashView (0.6.0)
+  - SCLAlertView (0.8)
+  - Spring (1.0.6)
+  - SwiftDate (5.1.0)
+  - TransitionableTab (0.2.0)
+  - ViewAnimator (2.7.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CleanyModal
+  - CountdownLabel
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - ParallaxHeader (~> 3.0.0)
+  - PMAlertController
+  - PopupDialog (~> 1.1)
+  - Presentr
+  - Pulsator
+  - RevealingSplashView
+  - SCLAlertView
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - SwiftDate (~> 5.0)
+  - TransitionableTab (~> 0.2.0)
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CleanyModal
+    - CountdownLabel
+    - DynamicBlurView
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - ParallaxHeader
+    - PMAlertController
+    - PopupDialog
+    - Presentr
+    - Pulsator
+    - RevealingSplashView
+    - SCLAlertView
+    - SwiftDate
+    - TransitionableTab
+    - ViewAnimator
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 50d92a5b9e08848387ae95bf44c6ad20834f7083
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  CleanyModal: 168c308614ea9d8ed90dfc642d91cb8b81b92356
+  CountdownLabel: c9975e3f329140b5e7d1f45cd63b1300badd1712
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  ParallaxHeader: a343f55eb38f52a89c5820a77e14cf975b84e6aa
+  PMAlertController: 5fad2da8b9eb687134ed50c3462fed12c3afe976
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
+  RevealingSplashView: 40c5a770894459736acdc95655eeba0dd30ce91c
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+  SwiftDate: 6329e58969a2de31cea7f1ee1143b247693196e7
+  TransitionableTab: 54a5d0af475033bdb83959fde4e5d6201af7e2ab
+  ViewAnimator: 5af1c6f3b310f012bf081259c43717aa54fbae73
+
+PODFILE CHECKSUM: 2f1c10bd18af7c0a4451c869502ec9419424dbff
+
+COCOAPODS: 1.9.1

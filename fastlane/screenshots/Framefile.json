@@ -1,0 +1,28 @@
+{
+  "default": {
+    "keyword": {
+      "fonts": [
+        {
+          "font": "./fonts/AboriginalSansREGULAR.ttf",
+          "supported": ["en-US","ar_SA"]
+        }
+      ],
+      "color": "#ffffff"
+    },
+    "title": {
+      "fonts": [
+        {
+          "font": "./fonts/AboriginalSansREGULAR.ttf",
+          "supported": ["en-US","ar_SA"]
+        }
+      ],
+      "color": "#ffffff"
+    },
+    "background": "./background.png",
+    "padding": 50
+  },
+
+  "data": [
+
+  ]
+}

@@ -1,0 +1,57 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Generate new localized screenshots"
+  lane :screenshots do
+    capture_screenshots(workspace: "Homathon.xcworkspace", scheme: "Homathon")
+    upload_to_app_store(skip_binary_upload: true, skip_metadata: true)
+  end
+
+  
+end
+
+
+lane :release do
+  get_certificates           # invokes cert
+  get_provisioning_profile   # invokes sigh
+  increment_build_number
+  build_app(scheme: "Homathon")
+  upload_to_testflight
+  # deliver( # upload to the app store
+  #   submit_for_review: false,
+  #   force: true,
+  #   metadata_path: "./metadata"
+  # )
+end
+
+lane :testUploading do 
+  upload_to_app_store
+end
+
+lane :generateIcon do
+  appicon(
+    appicon_devices: [:iphone, :ios_marketing],
+    appicon_path: "Homathon/Assets.xcassets"
+  )
+end
+
+lane :screenshots do
+  # capture_screenshots
+  # frame_screenshots
+  upload_to_app_store
+end
